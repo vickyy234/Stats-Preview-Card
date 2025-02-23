@@ -43,7 +43,7 @@ body{
 }
 .description{
     width: 50%;
-    margin:7%;
+    padding:7%;
 }
 .description h1{
     color: hsl(0, 0%, 100%);
@@ -63,6 +63,7 @@ body{
 .stats{
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 .stats h2{
     font-size: 4vh;
